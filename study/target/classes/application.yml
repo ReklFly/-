@@ -1,0 +1,9 @@
+server:
+  2   port: 8080
+  3   servlet:
+  4     context-path: /
+  5 spring:
+  6   datasource:
+  7     username: root
+  8     password: root
+  9     url: jdbc:mysql://localhost:3306/wtf?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
